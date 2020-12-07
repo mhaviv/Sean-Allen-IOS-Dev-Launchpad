@@ -57,9 +57,7 @@ class CardSelectionVC: UIViewController {
 }
 
 extension CardSelectionVC {
-    
-    //FIXME: iterate through last item in cardNames array instead of all values in array
-    
+        
     func cardWorkoutType() -> String {
         var workout = ""
         let name = selectedCard ?? ""
@@ -79,7 +77,6 @@ extension CardSelectionVC {
         return workout
     }
     
-    //FIXME: iterate through last item in cardNames array instead of all values in array
     func cardValueRepIdentifier() -> Int {
         var repCount = 0
         let name = selectedCard ?? ""
