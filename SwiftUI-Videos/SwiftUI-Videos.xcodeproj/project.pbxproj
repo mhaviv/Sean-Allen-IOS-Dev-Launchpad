@@ -7,33 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC8F723F25772A0300013784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F723E25772A0300013784 /* AppDelegate.swift */; };
-		CC8F724125772A0300013784 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F724025772A0300013784 /* SceneDelegate.swift */; };
-		CC8F724825772A0700013784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8F724725772A0700013784 /* Assets.xcassets */; };
-		CC8F724B25772A0700013784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8F724925772A0700013784 /* LaunchScreen.storyboard */; };
-		CC8F72562577F65900013784 /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F72552577F65900013784 /* CardSelectionVC.swift */; };
-		CC8F725A2577F7CB00013784 /* CWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F72592577F7CB00013784 /* CWButton.swift */; };
-		CC8F725E257AB78D00013784 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F725D257AB78D00013784 /* RulesVC.swift */; };
-		CC8F7263257B05D100013784 /* RulesLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7262257B05D100013784 /* RulesLabel.swift */; };
-		CC8F7267257EC9D300013784 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7266257EC9D300013784 /* Card.swift */; };
+		CC8F7278257ED22000013784 /* SwiftUI_VideosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7277257ED22000013784 /* SwiftUI_VideosApp.swift */; };
+		CC8F727A257ED22000013784 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7279257ED22000013784 /* ContentView.swift */; };
+		CC8F727C257ED22400013784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8F727B257ED22400013784 /* Assets.xcassets */; };
+		CC8F727F257ED22400013784 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8F727E257ED22400013784 /* Preview Assets.xcassets */; };
+		CC8F7288257EE46C00013784 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8F7287257EE46C00013784 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC8F723B25772A0300013784 /* CardWorkout-Programmatic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CardWorkout-Programmatic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC8F723E25772A0300013784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC8F724025772A0300013784 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC8F724725772A0700013784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CC8F724A25772A0700013784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CC8F724C25772A0700013784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC8F72552577F65900013784 /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSelectionVC.swift; sourceTree = "<group>"; };
-		CC8F72592577F7CB00013784 /* CWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWButton.swift; sourceTree = "<group>"; };
-		CC8F725D257AB78D00013784 /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
-		CC8F7262257B05D100013784 /* RulesLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesLabel.swift; sourceTree = "<group>"; };
-		CC8F7266257EC9D300013784 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CC8F7274257ED22000013784 /* SwiftUI-Videos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Videos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8F7277257ED22000013784 /* SwiftUI_VideosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_VideosApp.swift; sourceTree = "<group>"; };
+		CC8F7279257ED22000013784 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC8F727B257ED22400013784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC8F727E257ED22400013784 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC8F7280257ED22400013784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8F7287257EE46C00013784 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CC8F723825772A0300013784 /* Frameworks */ = {
+		CC8F7271257ED22000013784 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,74 +35,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CC8F723225772A0300013784 = {
+		CC8F726B257ED22000013784 = {
 			isa = PBXGroup;
 			children = (
-				CC8F723D25772A0300013784 /* CardWorkout-Programmatic */,
-				CC8F723C25772A0300013784 /* Products */,
+				CC8F7276257ED22000013784 /* SwiftUI-Videos */,
+				CC8F7275257ED22000013784 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CC8F723C25772A0300013784 /* Products */ = {
+		CC8F7275257ED22000013784 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC8F723B25772A0300013784 /* CardWorkout-Programmatic.app */,
+				CC8F7274257ED22000013784 /* SwiftUI-Videos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC8F723D25772A0300013784 /* CardWorkout-Programmatic */ = {
+		CC8F7276257ED22000013784 /* SwiftUI-Videos */ = {
 			isa = PBXGroup;
 			children = (
-				CC8F723E25772A0300013784 /* AppDelegate.swift */,
-				CC8F724025772A0300013784 /* SceneDelegate.swift */,
-				CC8F72552577F65900013784 /* CardSelectionVC.swift */,
-				CC8F7266257EC9D300013784 /* Card.swift */,
-				CC8F72592577F7CB00013784 /* CWButton.swift */,
-				CC8F7262257B05D100013784 /* RulesLabel.swift */,
-				CC8F725D257AB78D00013784 /* RulesVC.swift */,
-				CC8F724725772A0700013784 /* Assets.xcassets */,
-				CC8F724925772A0700013784 /* LaunchScreen.storyboard */,
-				CC8F724C25772A0700013784 /* Info.plist */,
+				CC8F7277257ED22000013784 /* SwiftUI_VideosApp.swift */,
+				CC8F7279257ED22000013784 /* ContentView.swift */,
+				CC8F7287257EE46C00013784 /* Video.swift */,
+				CC8F727B257ED22400013784 /* Assets.xcassets */,
+				CC8F7280257ED22400013784 /* Info.plist */,
+				CC8F727D257ED22400013784 /* Preview Content */,
 			);
-			path = "CardWorkout-Programmatic";
+			path = "SwiftUI-Videos";
+			sourceTree = "<group>";
+		};
+		CC8F727D257ED22400013784 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC8F727E257ED22400013784 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC8F723A25772A0300013784 /* CardWorkout-Programmatic */ = {
+		CC8F7273257ED22000013784 /* SwiftUI-Videos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC8F724F25772A0700013784 /* Build configuration list for PBXNativeTarget "CardWorkout-Programmatic" */;
+			buildConfigurationList = CC8F7283257ED22400013784 /* Build configuration list for PBXNativeTarget "SwiftUI-Videos" */;
 			buildPhases = (
-				CC8F723725772A0300013784 /* Sources */,
-				CC8F723825772A0300013784 /* Frameworks */,
-				CC8F723925772A0300013784 /* Resources */,
+				CC8F7270257ED22000013784 /* Sources */,
+				CC8F7271257ED22000013784 /* Frameworks */,
+				CC8F7272257ED22000013784 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CardWorkout-Programmatic";
-			productName = "CardWorkout-Programmatic";
-			productReference = CC8F723B25772A0300013784 /* CardWorkout-Programmatic.app */;
+			name = "SwiftUI-Videos";
+			productName = "SwiftUI-Videos";
+			productReference = CC8F7274257ED22000013784 /* SwiftUI-Videos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CC8F723325772A0300013784 /* Project object */ = {
+		CC8F726C257ED22000013784 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					CC8F723A25772A0300013784 = {
+					CC8F7273257ED22000013784 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = CC8F723625772A0300013784 /* Build configuration list for PBXProject "CardWorkout-Programmatic" */;
+			buildConfigurationList = CC8F726F257ED22000013784 /* Build configuration list for PBXProject "SwiftUI-Videos" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,58 +114,43 @@
 				en,
 				Base,
 			);
-			mainGroup = CC8F723225772A0300013784;
-			productRefGroup = CC8F723C25772A0300013784 /* Products */;
+			mainGroup = CC8F726B257ED22000013784;
+			productRefGroup = CC8F7275257ED22000013784 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC8F723A25772A0300013784 /* CardWorkout-Programmatic */,
+				CC8F7273257ED22000013784 /* SwiftUI-Videos */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CC8F723925772A0300013784 /* Resources */ = {
+		CC8F7272257ED22000013784 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC8F724B25772A0700013784 /* LaunchScreen.storyboard in Resources */,
-				CC8F724825772A0700013784 /* Assets.xcassets in Resources */,
+				CC8F727F257ED22400013784 /* Preview Assets.xcassets in Resources */,
+				CC8F727C257ED22400013784 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CC8F723725772A0300013784 /* Sources */ = {
+		CC8F7270257ED22000013784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC8F723F25772A0300013784 /* AppDelegate.swift in Sources */,
-				CC8F724125772A0300013784 /* SceneDelegate.swift in Sources */,
-				CC8F7267257EC9D300013784 /* Card.swift in Sources */,
-				CC8F72562577F65900013784 /* CardSelectionVC.swift in Sources */,
-				CC8F725E257AB78D00013784 /* RulesVC.swift in Sources */,
-				CC8F7263257B05D100013784 /* RulesLabel.swift in Sources */,
-				CC8F725A2577F7CB00013784 /* CWButton.swift in Sources */,
+				CC8F727A257ED22000013784 /* ContentView.swift in Sources */,
+				CC8F7288257EE46C00013784 /* Video.swift in Sources */,
+				CC8F7278257ED22000013784 /* SwiftUI_VideosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CC8F724925772A0700013784 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC8F724A25772A0700013784 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		CC8F724D25772A0700013784 /* Debug */ = {
+		CC8F7281257ED22400013784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -230,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		CC8F724E25772A0700013784 /* Release */ = {
+		CC8F7282257ED22400013784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,38 +266,44 @@
 			};
 			name = Release;
 		};
-		CC8F725025772A0700013784 /* Debug */ = {
+		CC8F7284257ED22400013784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Videos/Preview Content\"";
 				DEVELOPMENT_TEAM = XM288BRHM4;
-				INFOPLIST_FILE = "CardWorkout-Programmatic/Info.plist";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Videos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Michael-Haviv.CardWorkout-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Michael-Haviv.SwiftUI-Videos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CC8F725125772A0700013784 /* Release */ = {
+		CC8F7285257ED22400013784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Videos/Preview Content\"";
 				DEVELOPMENT_TEAM = XM288BRHM4;
-				INFOPLIST_FILE = "CardWorkout-Programmatic/Info.plist";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Videos/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Michael-Haviv.CardWorkout-Programmatic";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Michael-Haviv.SwiftUI-Videos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,25 +313,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC8F723625772A0300013784 /* Build configuration list for PBXProject "CardWorkout-Programmatic" */ = {
+		CC8F726F257ED22000013784 /* Build configuration list for PBXProject "SwiftUI-Videos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC8F724D25772A0700013784 /* Debug */,
-				CC8F724E25772A0700013784 /* Release */,
+				CC8F7281257ED22400013784 /* Debug */,
+				CC8F7282257ED22400013784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC8F724F25772A0700013784 /* Build configuration list for PBXNativeTarget "CardWorkout-Programmatic" */ = {
+		CC8F7283257ED22400013784 /* Build configuration list for PBXNativeTarget "SwiftUI-Videos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CC8F725025772A0700013784 /* Debug */,
-				CC8F725125772A0700013784 /* Release */,
+				CC8F7284257ED22400013784 /* Debug */,
+				CC8F7285257ED22400013784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CC8F723325772A0300013784 /* Project object */;
+	rootObject = CC8F726C257ED22000013784 /* Project object */;
 }
